@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>       
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>me and her</title>
+
+
+
+
+
+    <style>
+        body {
+          background-color: rgb(177, 154, 154);
+          color: white;
+        }
+      </style>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+    <button style="display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; background-color: #642828; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;"onclick="displayAlerts()">Click here babe </button>
+    
+    <script>
+      function displayAlerts() {
+        
+        setTimeout(function() {
+          alert("Hey i know your wondering");
+        }, 0);
+    
+        
+        setTimeout(function() {
+          alert("what is this and what is going on");
+        }, 1000);
+    
+       
+        setTimeout(function() {
+          alert("nothing to be scared of hun");
+        }, 2000);
+      
+        setTimeout(function() {
+          alert("i just wanted to say how much i love you");
+        }, 3000);
+        
+        setTimeout(function() {
+          alert("and how much im in love with you");
+        }, 4000);
+
+        setTimeout(function() {
+          alert("your the best thing that ever happened to me");
+        }, 5000);
+
+        setTimeout(function() {
+          alert("and i love the way you care about me and make me feel special and happy");
+        }, 6000);
+
+        setTimeout(function() {
+          alert("and i love everything about you and i hope this relashinship doesnt end for the rest of our lifes");
+        }, 7000);
+
+        setTimeout(function() {
+          alert("stay with me i love feeling like there is someone here for me");
+        }, 8000);
+
+        setTimeout(function() {
+          alert("together for ever?");
+        }, 9000);
+    }
+    </script>
+      <style>
+        /* Centering the buttons */
+        body {
+          display: grid;
+          place-items: center;
+          height: 100vh;
+          margin: 0;
+        }
+    
+    
+      </style>
+     <button style=" display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; background-color: #642828; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;" onclick="drawHeart()">click here after</button>
+     <canvas id="myCanvas" width="400" height="400"></canvas>
+
+     <script>
+       function drawHeart() {
+         var canvas = document.getElementById("myCanvas");
+         var ctx = canvas.getContext("2d");
+     
+         ctx.clearRect(0, 0, canvas.width, canvas.height);
+     
+         ctx.fillStyle = "red";
+         ctx.beginPath();
+         ctx.moveTo(200, 80);
+         ctx.bezierCurveTo(150, 0, 80, 70, 80, 160);
+         ctx.bezierCurveTo(80, 240, 200, 350, 200, 400);
+         ctx.bezierCurveTo(200, 350, 320, 240, 320, 160);
+         ctx.bezierCurveTo(320, 70, 250, 0, 200, 80);
+         ctx.fill();
+     
+         ctx.font = "24px Arial";
+         ctx.fillStyle = "white";
+         ctx.textAlign = "center";
+         ctx.fillText("I love you, Shahad", canvas.width / 2, canvas.height / 2);
+       }
+     </script> 
+      
+
+
+      <button style=" display: inline-block; padding: 10px 20px; font-size: 16px; font-weight: bold; text-align: center; text-decoration: none; background-color: #642828; color: white; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;" onclick="openLink()">then here</button>
+
+      <script>
+        function openLink() {
+          var link = "https://youtu.be/0yW7w8F2TVA?si=HrdC2Vq35nZcogjH"; 
+          window.open(link, "_blank");
+        }
+      </script>
+
+     
+    </body>
+    </html>
